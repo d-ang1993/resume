@@ -2,8 +2,23 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 100vh;
+  background-color: #ffffff;
 }
 
-h1 {
-  margin: 0;
+.section {
+  border-bottom: 1px solid black;
+}
+.section-line {
+  padding: 0 3em;
+}
+
+.container {
+  &.experience {
+    padding: 0 3em;
+  }
+}
+
+.column {
+  &.left {
+  }
 }

@@ -34,7 +34,10 @@ class Resume extends React.Component {
             blurb={resume.blurb}
             links={resume.links}
           />
-          <Body experiences={resume.experiences} />
+          <Body
+            experiences={resume.experiences}
+            projects={resume.projects}
+          />
         </div>
       </div>
     );
