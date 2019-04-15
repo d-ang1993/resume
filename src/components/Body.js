@@ -13,7 +13,7 @@ class Body extends React.Component {
               <Experiences
                 title={experience.title}
                 timestamp={experience.timestamp}
-                points={experience.timestamp}
+                points={experience.points}
               />
             )
           })}

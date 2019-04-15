@@ -16,10 +16,29 @@ const data = {
   ],
   experiences: [
     {
-      title: "lorem ipsum",
-      timestamp: "lorem ipsum x2",
-      points: "lorem ipsum x3"
-    }
+      title: "title lorem ipsum",
+      timestamp: "time lorem ipsum x2",
+      points: [
+        "point lorem ipsum x3",
+        "point lorem ipsum x3",
+      ]
+    },
+    {
+      title: "title lorem ipsum",
+      timestamp: "time lorem ipsum x2",
+      points: [
+        "point lorem ipsum x3",
+        "point lorem ipsum x3",
+      ]
+    },
+    {
+      title: "title lorem ipsum",
+      timestamp: "time lorem ipsum x2",
+      points: [
+        "point lorem ipsum x3",
+        "point lorem ipsum x3",
+      ]
+    },
   ]
 };
 

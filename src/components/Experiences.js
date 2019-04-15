@@ -4,7 +4,14 @@ const Experiences = (props) => {
   const { title, timestamp, points } = props
     return(
       <div>
-        {timestamp}
+        <h1>{title}</h1>
+        <h1>{timestamp}</h1>
+        <h1>{points.map(point=>{
+          return (
+          <ul>
+            <li>{point}</li>
+          </ul>)
+        })}</h1>
       </div>
     )
 
