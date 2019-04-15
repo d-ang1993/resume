@@ -1,6 +1,35 @@
 $my_color: red;
 
+
 .header {
-  color: $my_color;
-  margin: 0;
+  height: 160px;
+  padding: 0 3em;
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  color: #7a7a7a;
+}
+
+.name {
+  margin-bottom: 0.2em;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 2em;
+  color: #3f3f3f;
+}
+
+.blurb {
+  font-size: 11pt;
+}
+
+.link {
+  list-style-type: none;
+}
+
+.link a {
+  text-decoration: none;
+}
+
+.panel {
+  &.left {width: 22em;}
 }
